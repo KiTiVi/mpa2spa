@@ -1,12 +1,12 @@
 {
-  "name": "jobscanner-express",
+  "name": "mpa2spa",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "install-react": "cd react && npm i",
     "build-react": "cd react && npm run build",
-    "start-server": "nodemon server.js",
+    "start-server": "npm i && nodemon server.js",
     "start": "npm run install-react && npm run build-react && npm run start-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
