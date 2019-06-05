@@ -5,3 +5,4 @@ A test to combine MPA and SPA.
 ```javascript
 npm run start
 ```
+Open localhost:5000
