@@ -1,0 +1,21 @@
+{
+  "name": "jobscanner-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-react": "cd new-tech && npm i",
+    "build-react": "cd new-tech && npm run build",
+    "start-server": "nodemon server.js",
+    "start": "npm run install-react && npm run build-react && npm run start-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "env-cmd": "^9.0.2",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
