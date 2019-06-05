@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install-react": "cd new-tech && npm i",
-    "build-react": "cd new-tech && npm run build",
+    "install-react": "cd react && npm i",
+    "build-react": "cd react && npm run build",
     "start-server": "nodemon server.js",
     "start": "npm run install-react && npm run build-react && npm run start-server",
     "test": "echo \"Error: no test specified\" && exit 1"

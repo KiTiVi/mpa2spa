@@ -10,14 +10,14 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'pages', 'index.html'))
 })
 
-app.use(express.static(path.join(__dirname, '/new-tech/build')))
+app.use(express.static(path.join(__dirname, '/react/build')))
 
 app.get('/users', function(req, res) {
-  res.sendFile(path.join(__dirname, '/new-tech/build', 'index.html'))
+  res.sendFile(path.join(__dirname, '/react/build', 'index.html'))
 })
 
 app.get('/new*', function(req, res) {
-  res.sendFile(path.join(__dirname, '/new-tech/build', 'index.html'))
+  res.sendFile(path.join(__dirname, '/react/build', 'index.html'))
 })
 
 app.listen(5454)
